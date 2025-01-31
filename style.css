@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #aad28b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  scroll-behavior: smooth;
+}
+.ad {
+  background-color: #aad28b;
+}
+a {
+  color: black;
+}
+.ad h3 {
+  text-align: center;
+  font-size: 17px;
+  padding: 10px 0;
+  color: #fff;
+  font-weight: bold;
+}
+.navbar {
+  background-color: #fff;
+  width: 100%;
+  padding: 0px 50px;
+  box-shadow: 1px 0.1px 10px #e0e0e0;
+  z-index: 1000;
+}
+form {
+  z-index: 1;
+  position: relative;
+}
+.navbar-brand img {
+  width: 80px;
+  height: 80px;
+}
+
+.carousel-img {
+  height: 600px;
+  object-fit: cover;
+}
+
+.sale-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #6c178b;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.product-card {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  z-index: 1 !important;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.product-card img:hover {
+  filter: brightness(60%);
+}
+.product-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.price {
+  color: #6c178b;
+}
+
+.ad-image {
+  position: relative;
+  text-align: center;
+}
+.ad-text {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.hightlight,
+h2 {
+  color: #aad28b;
+  font-weight: bold;
+}
+.brand {
+  width: 100%;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.nav-social-icon {
+  margin-left: 10px;
+}
+
+.mthr {
+  margin-top: 10%;
+}
+
+@media screen and (max-width: 768px) {
+  .ad h3 {
+    font-size: 12px;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navbar ul {
+    padding-left: 20px;
+  }
+  .carousel-img {
+    height: 210px;
+  }
+  .brand {
+    margin-left: 0px;
+  }
+  .ad-text h2 {
+    font-size: 14px;
+  }
+  .ad-text p {
+    font-size: 12px;
+  }
+  .filter {
+    margin-left: 0;
+  }
+}
