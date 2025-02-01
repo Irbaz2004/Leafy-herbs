@@ -48,7 +48,7 @@ function displayProducts(products) {
                             <span class="text-muted text-decoration-line-through">₹${product.offerprice}</span>
                         </p>
                         <button class="btn btn-dark">
-                            <a href='product.html?id=${product.id}' class="text-white text-decoration-none">View Details</a>
+                            <a href='Product.html?id=${product.id}' class="text-white text-decoration-none">View Details</a>
                         </button>
                     </div>
                 </div>
