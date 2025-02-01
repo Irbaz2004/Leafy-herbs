@@ -20,3 +20,4 @@ buy.addEventListener('click', () => {
     alert('Product has been added!');
 });
 
+

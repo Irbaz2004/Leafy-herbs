@@ -100,3 +100,7 @@ document.getElementById('sortFilter').addEventListener('change', filterProducts)
 
 // Initial display
 displayProducts(products);
+
+
+
+
